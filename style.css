@@ -1,0 +1,50 @@
+body{
+  background-image: url('landscape.jpg');
+  background-size: 100%;
+  background-color: #78C8DA;
+  font-family: sans-serif helvetica;
+}
+
+
+h1{
+  text-align: center;
+  font-size: 5em;
+  padding-top: 15%;
+  color:#1B162E;
+}
+
+p{
+  text-align: center;
+  font-size: 2em;
+  padding-top: 2%;
+  color: #1B162E;
+}
+
+ img{
+   height: 5%;
+   width: 5%;
+   text-align: center;
+   -webkit-animation:spin 4s linear infinite;
+   -moz-animation:spin 4s linear infinite;
+   animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+}
+ }
+
+.img-rotate{
+  text-align: center;
+}
+
+button{
+  float: right;
+  margin-right:47%;
+}
+
+.button{
+  background: #78C8DA;
+  color:#1B162E;
+  border-radius: 10px;
+}
